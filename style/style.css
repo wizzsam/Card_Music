@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    background-image: url(../imagenes/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Part_1{
+    margin: 100px auto;
+    height: auto;
+    max-width: 90%;
+    background: white;
+    width: 400px;
+    border-radius: 20px;
+}
+.imagen_P{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.texto1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    color: #182045;
+}
+.texto2{
+    text-align: center;
+    font-size: 12px;
+    padding: 1px 50px;
+    margin: -15px 0px 0px 0px;
+    opacity: 90%;
+}
+.Part_2{
+    display: flex;
+    background: #f8f9fe;
+    margin: 15px 45px 15px 45px;
+    border-radius: 10px;
+}
+
+.imagen_M{
+    width: 40px;
+    height: 40px;
+    margin: 20px 10px 15px 10px;
+}
+.texto3{
+    margin: 15px 10px 0px 0px;
+}
+.texto4{
+    margin: 10px 0px 10px 0px;
+}
+.link1{
+   
+    font-weight: bold;
+    margin: 25px 0px 0px 60px;
+}
+.Botones{
+    display: grid;
+    gap: 25px;
+    padding: 10px 50px 30px 50px;
+   
+}
+.boton_Com,.boton_Can{
+    padding: 14px;
+    border-radius: 10px;
+    border-style: none;
+   font-weight: bold;
+    cursor: pointer;
+}
+.boton_Com{
+    color: white;
+    background: #382ae1;
+    box-shadow: 0px 10px 20px  rgba(0, 0, 0, 0.5);
+}
+.boton_Can{
+    color: gray ;
+    background: white;
+}
+.boton_Com:hover{
+    background: #766cf1;
+}
+@media screen and (max-width:480px) {
+.Part_2{
+    width: 300px;
+    margin: 0 auto;
+}
+    
+}
